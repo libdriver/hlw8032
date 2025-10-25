@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['voltage_5fcoefficient_128',['voltage_coefficient',['../structhlw8032__handle__s.html#af63b221626cc3c53cd2ac300c6eec31e',1,'hlw8032_handle_s']]],
-  ['voltage_5fkl_129',['voltage_kl',['../structhlw8032__handle__s.html#aa351ffbcf7bc3004efcc372afde69356',1,'hlw8032_handle_s']]],
-  ['voltage_5fparameter_5fraw_130',['voltage_parameter_raw',['../structhlw8032__data__s.html#a41a58111c88fce9f169bb2f1932de415',1,'hlw8032_data_s']]],
-  ['voltage_5fraw_131',['voltage_raw',['../structhlw8032__data__s.html#ae696d3460a1279be2eae0d4518ca8ff0',1,'hlw8032_data_s']]]
+  ['temperature_5fmax_0',['TEMPERATURE_MAX',['../driver__hlw8032_8c.html#a90c0b20d54005712fcc8cb01281360e9',1,'driver_hlw8032.c']]],
+  ['temperature_5fmax_1',['temperature_max',['../structhlw8032__info__s.html#a3366a5dce9b829e03c3d321c2b4df3f6',1,'hlw8032_info_s']]],
+  ['temperature_5fmin_2',['TEMPERATURE_MIN',['../driver__hlw8032_8c.html#aab353db5bf4eb787f86a2080f609a551',1,'driver_hlw8032.c']]],
+  ['temperature_5fmin_3',['temperature_min',['../structhlw8032__info__s.html#a8f9dbe66ac0b66ebae0a36fcb4ba368e',1,'hlw8032_info_s']]],
+  ['test_20driver_20function_4',['hlw8032 test driver function',['../group__hlw8032__test__driver.html',1,'']]]
 ];
