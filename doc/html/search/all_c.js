@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['uart_5fdeinit_123',['uart_deinit',['../structhlw8032__handle__s.html#a57faa7438fdabb6134dabb8b386707a8',1,'hlw8032_handle_s']]],
-  ['uart_5fflush_124',['uart_flush',['../structhlw8032__handle__s.html#a1926b171e2786f52634d78953df6612a',1,'hlw8032_handle_s']]],
-  ['uart_5finit_125',['uart_init',['../structhlw8032__handle__s.html#ad6e221373f53cf56fdeec9c64bbc6423',1,'hlw8032_handle_s']]],
-  ['uart_5fread_126',['uart_read',['../structhlw8032__handle__s.html#a9f6681bb2ac30875d94d016ad0137ab2',1,'hlw8032_handle_s']]],
-  ['update_5fstatus_127',['update_status',['../structhlw8032__data__s.html#aba5664364a6232fc06ccfff084dc4ea0',1,'hlw8032_data_s']]]
+  ['status_0',['status',['../structhlw8032__data__s.html#ade818037fd6c985038ff29656089758d',1,'hlw8032_data_s']]],
+  ['supply_5fvoltage_5fmax_1',['SUPPLY_VOLTAGE_MAX',['../driver__hlw8032_8c.html#a68eba8b601afe11f1b871d944976c035',1,'driver_hlw8032.c']]],
+  ['supply_5fvoltage_5fmax_5fv_2',['supply_voltage_max_v',['../structhlw8032__info__s.html#a3d2b12bcac7a85ea8646bff9debe8660',1,'hlw8032_info_s']]],
+  ['supply_5fvoltage_5fmin_3',['SUPPLY_VOLTAGE_MIN',['../driver__hlw8032_8c.html#aac8d8cbd899667d609787ef4cf37054d',1,'driver_hlw8032.c']]],
+  ['supply_5fvoltage_5fmin_5fv_4',['supply_voltage_min_v',['../structhlw8032__info__s.html#ad8bde6ddadaf43d951e62f3befb9d35a',1,'hlw8032_info_s']]]
 ];
