@@ -159,7 +159,7 @@ typedef struct hlw8032_handle_s
     uint8_t mode;                                             /**< mode */
     float voltage_coefficient;                                /**< voltage coefficient */
     float current_coefficient;                                /**< current coefficient */
-    float voltage_kl;                                         /**< voltage kl */
+    float voltage_k1;                                         /**< voltage k1 */
     float current_k2;                                         /**< current k2 */
     float power_k3;                                           /**< power k3 */
     uint8_t is_first;                                         /**< first flag */
