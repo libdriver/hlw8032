@@ -34,7 +34,7 @@ var group__hlw8032__basic__driver =
       [ "uart_init", "structhlw8032__handle__s.html#ad6e221373f53cf56fdeec9c64bbc6423", null ],
       [ "uart_read", "structhlw8032__handle__s.html#a9f6681bb2ac30875d94d016ad0137ab2", null ],
       [ "voltage_coefficient", "structhlw8032__handle__s.html#af63b221626cc3c53cd2ac300c6eec31e", null ],
-      [ "voltage_kl", "structhlw8032__handle__s.html#aa351ffbcf7bc3004efcc372afde69356", null ]
+      [ "voltage_k1", "structhlw8032__handle__s.html#aae227d9bc41223ccaf36a2302d54e4b1", null ]
     ] ],
     [ "hlw8032_info_s", "structhlw8032__info__s.html", [
       [ "chip_name", "structhlw8032__info__s.html#af890958c72bd715cc6454a10dc846ae6", null ],

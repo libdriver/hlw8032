@@ -112,7 +112,7 @@ uint8_t hlw8032_init(hlw8032_handle_t *handle)
     handle->is_first = 0;                                              /* init 0 */
     handle->voltage_coefficient = HLW8032_VOLTAGE_COEFFICIENT;         /* set voltage coefficient */
     handle->current_coefficient = HLW8032_CURRENT_COEFFICIENT;         /* set current coefficient */
-    handle->voltage_kl = HLW8032_VOLTAGE_K1;                           /* set voltage kl */
+    handle->voltage_k1 = HLW8032_VOLTAGE_K1;                           /* set voltage kl */
     handle->current_k2 = HLW8032_CURRENT_K2;                           /* set current k2 */
     handle->power_k3 = HLW8032_POWER_K3;                               /* set power k3 */
     handle->inited = 1;                                                /* flag finish initialization */
@@ -216,7 +216,7 @@ uint8_t hlw8032_read(hlw8032_handle_t *handle, hlw8032_data_t *data)
             {
                 continue;                                                        /* continue */
             }
-            offset = i - 1;                                                      /* sava index */
+            offset = i - 1;                                                      /* save index */
             done = 1;                                                            /* flag done */
             
             break;                                                               /* break */
@@ -287,7 +287,7 @@ uint8_t hlw8032_read(hlw8032_handle_t *handle, hlw8032_data_t *data)
         {
             data->effective_voltage_v = (float)(data->voltage_parameter_raw) / 
                                         (float)(data->voltage_raw) * 
-                                        (float)(handle->voltage_kl);             /* set effective voltage */
+                                        (float)(handle->voltage_k1);             /* set effective voltage */
         }
         else
         {
@@ -497,7 +497,7 @@ uint8_t hlw8032_quantity_electricity_import(hlw8032_handle_t *handle, int64_t qu
             {
                 continue;                                            /* continue */
             }
-            offset = i - 1;                                          /* sava index */
+            offset = i - 1;                                          /* save index */
             done = 1;                                                /* flag done */
             
             break;                                                   /* break */
@@ -705,7 +705,7 @@ uint8_t hlw8032_set_transformer_voltage_k1(hlw8032_handle_t *handle, float coeff
         return 3;                      /* return error */
     }
     
-    handle->voltage_kl = coeff;        /* set coefficient */
+    handle->voltage_k1 = coeff;        /* set coefficient */
     
     return 0;                          /* success return 0 */ 
 }
@@ -732,7 +732,7 @@ uint8_t hlw8032_get_transformer_voltage_k1(hlw8032_handle_t *handle, float *coef
         return 3;                      /* return error */
     }
     
-    *coeff = handle->voltage_kl;       /* set coefficient */
+    *coeff = handle->voltage_k1;       /* set coefficient */
     
     return 0;                          /* success return 0 */ 
 }
