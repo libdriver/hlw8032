@@ -205,7 +205,7 @@ uint8_t hlw8032_read(hlw8032_handle_t *handle, hlw8032_data_t *data)
     done = 0;                                                                    /* init 0 */
     for (i = 0; i < 48; i++)                                                     /* loop all */
     {
-        if ((i != 0) && (buf[i] == 0x5A) && ((i + 23) < 48))                     /* check frame */
+        if ((i != 0) && (buf[i] == 0x5A) && ((i + 22) < 48))                     /* check frame */
         {
             check_sum = 0;                                                       /* init 0 */
             for (j = 0; j < 21; j++)                                             /* sum all */
@@ -486,7 +486,7 @@ uint8_t hlw8032_quantity_electricity_import(hlw8032_handle_t *handle, int64_t qu
     done = 0;                                                        /* init 0 */
     for (i = 0; i < 48; i++)                                         /* loop all */
     {
-        if ((i != 0) && (buf[i] == 0x5A) && ((i + 23) < 48))         /* check frame */
+        if ((i != 0) && (buf[i] == 0x5A) && ((i + 22) < 48))         /* check frame */
         {
             check_sum = 0;                                           /* init 0 */
             for (j = 0; j < 21; j++)                                 /* sum all */
