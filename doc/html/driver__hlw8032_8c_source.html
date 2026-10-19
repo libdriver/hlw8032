@@ -236,7 +236,7 @@ $(function(){initNavTree('driver__hlw8032_8c_source.html','',''); });
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    done = 0;                                                                    <span class="comment">/* init 0 */</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 48; i++)                                                     <span class="comment">/* loop all */</span></div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    {</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        <span class="keywordflow">if</span> ((i != 0) &amp;&amp; (buf[i] == 0x5A) &amp;&amp; ((i + 23) &lt; 48))                     <span class="comment">/* check frame */</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        <span class="keywordflow">if</span> ((i != 0) &amp;&amp; (buf[i] == 0x5A) &amp;&amp; ((i + 22) &lt; 48))                     <span class="comment">/* check frame */</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        {</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>            check_sum = 0;                                                       <span class="comment">/* init 0 */</span></div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            <span class="keywordflow">for</span> (j = 0; j &lt; 21; j++)                                             <span class="comment">/* sum all */</span></div>
@@ -499,7 +499,7 @@ $(function(){initNavTree('driver__hlw8032_8c_source.html','',''); });
 <div class="line"><a id="l00486" name="l00486"></a><span class="lineno">  486</span>    done = 0;                                                        <span class="comment">/* init 0 */</span></div>
 <div class="line"><a id="l00487" name="l00487"></a><span class="lineno">  487</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 48; i++)                                         <span class="comment">/* loop all */</span></div>
 <div class="line"><a id="l00488" name="l00488"></a><span class="lineno">  488</span>    {</div>
-<div class="line"><a id="l00489" name="l00489"></a><span class="lineno">  489</span>        <span class="keywordflow">if</span> ((i != 0) &amp;&amp; (buf[i] == 0x5A) &amp;&amp; ((i + 23) &lt; 48))         <span class="comment">/* check frame */</span></div>
+<div class="line"><a id="l00489" name="l00489"></a><span class="lineno">  489</span>        <span class="keywordflow">if</span> ((i != 0) &amp;&amp; (buf[i] == 0x5A) &amp;&amp; ((i + 22) &lt; 48))         <span class="comment">/* check frame */</span></div>
 <div class="line"><a id="l00490" name="l00490"></a><span class="lineno">  490</span>        {</div>
 <div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span>            check_sum = 0;                                           <span class="comment">/* init 0 */</span></div>
 <div class="line"><a id="l00492" name="l00492"></a><span class="lineno">  492</span>            <span class="keywordflow">for</span> (j = 0; j &lt; 21; j++)                                 <span class="comment">/* sum all */</span></div>
